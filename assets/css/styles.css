@@ -1,0 +1,79 @@
+body {
+  background-color: #F1F1F1;
+  color: #5F6F65;
+  font-style: bold;
+}
+
+.btn-primary {
+  background-color: #5F6F65;
+}
+
+:root,
+[data-bs-theme=light] {
+  --bs-primary: #40A578;
+  --bs-secondary: #9DDE8B;
+  --bs-success: #006769;
+  --bs-info: #E6FF94;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #DEF9C4;
+  --bs-dark: #212529;
+}
+
+.contenedor_presentacion {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+h5 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.contact-info {
+  background-color: #F1F1F1;
+  padding: 20px;
+  border-radius: 5px;
+}
+.contact-info .contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.contact-info .contact-item i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #333;
+}
+.contact-info .contact-item span,
+.contact-info .contact-item a {
+  font-size: 16px;
+  color: #333;
+  text-decoration: none;
+}
+.contact-info .contact-item span:hover,
+.contact-info .contact-item a:hover {
+  color: #9CA986;
+}
+
+/*# sourceMappingURL=styles.css.map */

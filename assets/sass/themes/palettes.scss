@@ -1,0 +1,33 @@
+
+body{
+  background-color: #F1F1F1;
+  color: #5F6F65;
+  font-style: bold;
+
+}
+
+.btn-primary{
+  background-color: #5F6F65;
+}
+
+
+
+
+:root,
+[data-bs-theme=light] {
+--bs-primary: #40A578;
+ 
+  --bs-secondary : #9DDE8B;
+
+  --bs-success : #006769;
+
+  --bs-info : #E6FF94;
+
+  --bs-warning : #ffc107;
+
+  --bs-danger : #dc3545;
+
+  --bs-light : #DEF9C4;
+
+  --bs-dark :   #212529;
+}

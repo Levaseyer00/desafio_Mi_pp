@@ -1,0 +1,63 @@
+
+@import '../sass/themes/palettes.scss';
+
+
+.contenedor_presentacion {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  h5 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    background-color: #F1F1F1;
+    padding: 20px;
+    border-radius: 5px;
+  
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+  
+      i {
+        margin-right: 10px;
+        font-size: 18px;
+        color: #333;
+      }
+  
+      span,
+      a {
+        font-size: 16px;
+        color: #333;
+        text-decoration: none;
+  
+        &:hover {
+          color: #9CA986;
+        }
+      }
+    }
+  }
+  
